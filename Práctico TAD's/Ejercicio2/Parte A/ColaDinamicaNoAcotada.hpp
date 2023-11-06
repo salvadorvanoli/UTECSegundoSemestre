@@ -1,5 +1,5 @@
-#ifndef TADDeque
-#define TADDeque
+#ifndef ColaDinamicaNoAcotada
+#define ColaDinamicaNoAcotada
 
 typedef int T;
 typedef struct cola * Cola;
@@ -23,6 +23,11 @@ void insertar(Cabezal &, T);
 // Precondiciones: la cola no puede estar vacía
 
 T principio(Cabezal);
+
+// Elimina el primer elemento de la cola
+// Precondiciones: la cola no puede estar vacía
+
+void quitarElemento(Cabezal &);
 
 // PREDICADOS
 
